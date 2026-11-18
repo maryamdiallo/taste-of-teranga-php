@@ -1,0 +1,1 @@
+<footer><div class="wrap">© <?= date('Y') ?> A Taste of Teranga · West African food, made with love.</div></footer></body></html>

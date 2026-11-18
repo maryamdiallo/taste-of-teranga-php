@@ -1,0 +1,2 @@
+<?php $pageTitle = $pageTitle ?? 'A Taste of Teranga'; ?>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= htmlspecialchars($pageTitle) ?> | A Taste of Teranga</title><link rel="stylesheet" href="style.css"></head><body><header class="site-header"><div class="wrap nav"><a class="brand" href="index.php">A Taste of Teranga <span>✦</span></a><nav aria-label="Main navigation"><a href="index.php">Home</a><a href="menu.php">Menu</a><a href="contact.php">Contact</a></nav></div></header>

@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS taste_of_teranga CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE taste_of_teranga;
+CREATE TABLE IF NOT EXISTS contact_messages (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL,
+    subject VARCHAR(150) NOT NULL,
+    message TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
